@@ -1,25 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+
+// import UseEffectTuto from "./hooks/UseEffectTuto";
+// import UseContextTuto from "./hooks/UseContextTuto";
+// import UseReducerTuto from "./hooks/UseReducerTuto";
+// import UseCallbackTuto from "./hooks/UseCallbackTuto";
+// import UseMemoTuto from "./hooks/UseMemoTuto";
+// import UseRefTuto from "./hooks/UseRefTuto";
+// import UseLayoutEffectTuto from "./hooks/UseLayoutEffectTuto";
+import CustomHooks from "./hooks/CustomHooks";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  return <CustomHooks />;
 }
 
 export default App;
